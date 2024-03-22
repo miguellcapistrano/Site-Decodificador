@@ -1,0 +1,4 @@
+1 - as cores dos backgrounds foi para combinar com a imagem do background main;
+2 - adicionado um pequeno pop-up de "Texto copiado!" ao lado do campo de resultado;
+3 - botão de regras;
+4 - Uma lista abaixo do botão de regras;

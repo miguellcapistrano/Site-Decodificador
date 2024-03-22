@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: #F57D1F;
+    --cor-secundaria: #F5DD61;
+    --cor-terciaria: #DC69EA;
+    --cor-hoover: #F192D0;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 10px;
+    text-align: center;
+}
+
+#mostrarRegras{
+    background-color:#776B5D;
+    position: absolute; 
+    bottom: 84%; 
+    right: 0;
+    margin: 0 20px;
+}
+
+#listaRegras {
+    font-size: 10px;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    left: 82%;
+    display: none;
+    text-align: justify;
+    margin: 15px 20px;
+    width: 185px;
+    padding: 7px 0px 7px 20px;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+#mostrarRegras:hover{
+    background-color: var(--cor-hoover);
+}
+
+.decodificador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    background-image: url('../assets/sussurando.jpg');
+    background-size: cover;
+    background-position: center top 40%;
+    background-repeat: no-repeat;
+}
+
+.decodificador__coluna {
+    position: relative; /* Adiciona posicionamento relativo */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: 1px solid var(--cor-terciaria);
+    resize: none;
+}
+
+.decodificador__botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--cor-hoover);
+}
+
+#resultado {
+    border: 1px solid;
+    padding: 10px;
+}
+
+#textoResultado {
+    position: relative;
+}
+
+.decodificador__copiar {
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+#mensagemCopiado {
+    font-family: var(--fonte-secundaria);
+    display: none;
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+#copiar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.rodape {
+    font-family: var(--fonte-secundaria);
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

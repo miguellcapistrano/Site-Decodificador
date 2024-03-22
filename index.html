@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/styles.css">
+ 
+</head>
+<body>
+    <header>
+        <h1>SecretWhisper</h1>
+        <button id="mostrarRegras">Regras</button>
+        <ol id="listaRegras" style="display: none;">
+            <li>Apenas letras minúsculas</li>
+            <li>Letras sem acentos</li>
+            <li>Sem caracteres especiais</li>
+        </ol>
+    </header>
+    
+    <main class="decodificador">
+        <div class="decodificador__coluna">
+            <textarea id="textoCriptografarDescriptografar" placeholder="Insira o texto a ser criptografado/descriptografado"></textarea>
+        </div>
+        <div class="decodificador__botoes">
+            <button id="criptografar">Criptografar</button>
+            <button id="descriptografar">Descriptografar</button>
+        </div>
+        <div class="decodificador__coluna">
+            <textarea id="textoResultado" placeholder="Resultado" ></textarea>
+            <div class="decodificador_copiar">
+                <button id="copiar">Copiar</button> <!-- Botão Copiar -->
+            </div>
+
+        </div>
+        <div id="mensagemCopiado">Texto copiado!</div>
+    </main>
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+    <footer class="rodape">
+        <p>Desenvolvido por Miguell Capistrano</p>
+    </footer>
+</body>
+</html>
