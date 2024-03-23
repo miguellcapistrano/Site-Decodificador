@@ -19,17 +19,18 @@
 
 ## Descrição do Projeto
 
-Aqui você pode colocar uma breve descrição do seu projeto.
+É uma aplicação que criptografa/descriptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
 ## Status do Projeto
 
-Pronto.
+Pronto(aberto a melhorias).
 
 ## Funcionalidades
 
-- Funcionalidade 1
-- Funcionalidade 2
-- ...
+- Criptografar
+- Descriptografar
+- Copiar texto criptografado/descriptografado
+- Botão de regras que aparece uma lista
 
 ## Acesso ao Projeto
 
@@ -37,16 +38,16 @@ Você pode acessar o projeto [clicando aqui](https://miguellcapistrano.github.io
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-- JavaScript
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="20" height="20"/> HTML
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="20" height="20"/> CSS
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="20" height="20"/> JavaScript
 
-## Pessoas Contribuidoras
+## Contribuidores
 
 - Alura
 - Rafaella Ballerini
 - Guilherme Lima
 
-## Pessoas Desenvolvedoras do Projeto
+## Desenvolvedor do Projeto
 
 - Miguell Capistrano
