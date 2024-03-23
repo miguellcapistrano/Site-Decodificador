@@ -14,8 +14,8 @@
 - [Funcionalidades](#funcionalidades)
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Pessoas Contribuidoras](#pessoas-contribuidoras)
-- [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
+- [Pessoas Contribuidoras](#contribuidores)
+- [Pessoas Desenvolvedoras do Projeto](#desenvolvedor-do-projeto)
 
 ## Descrição do Projeto
 
