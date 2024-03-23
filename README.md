@@ -1,5 +1,5 @@
-align:"center" ![Logo SecretWhisper 2](https://github.com/miguellcapistrano/Site-Decodificador/assets/149817927/feb54464-45fb-4dae-9155-431ebf369c16)
-
-
+<p align="center">
+  <img src="[https://github.com/seuusuario/seurepositorio/raw/main/images/logo.png](https://github.com/miguellcapistrano/Site-Decodificador/blob/main/assets/Logo%20SecretWhisper%202.png)https://github.com/miguellcapistrano/Site-Decodificador/blob/main/assets/Logo%20SecretWhisper%202.png" alt="Logo do Meu Projeto">
+</p>
 
 https://miguellcapistrano.github.io/Site-Decodificador/
